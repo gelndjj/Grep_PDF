@@ -1,5 +1,5 @@
 # Grep_PDF
-_Grep_PDF looks through many PDF at the same time to find any words.Regular expressions can be used when the word is not known._
+_Grep_PDF looks through many PDF at the same time to find anything you want.Regular expressions can be used when the word is not known._
 
 ```
  _______                          ______ ______  _______ 
@@ -9,11 +9,10 @@ _Grep_PDF looks through many PDF at the same time to find any words.Regular expr
 | |___) | |   | ____| |_| |______| |    | |__/ /| |      
  \_____/|_|   |_____)  __(_______)_|    |_____/ |_|      
                     |_|                                  
-
 ```
 
 ### SUMMARY
-Grep_PDF grabs PDF from a folder you choose and then look trhough all of them to find a word (string) you defined.<br />
+Grep_PDF grabs PDF from a folder you choose and then look through all of them to find a word (string) you defined.<br />
 The soft allows you to use Regular Expressions in case you do not know what exactly you are looking for.<br />
 
 ### SCREENSHOTS
@@ -22,13 +21,12 @@ The soft allows you to use Regular Expressions in case you do not know what exac
 
 ![Screenshot](https://github.com/gelndjj/Grep_PDF/blob/main/img/grep_pdf_main_dark.png)
 
-
 ### HOW IT WORKS 
-1. Open a folder containing PDF by clicking on Open a folder.
+1. Open a folder containing PDF files by clicking on Open a folder.
 2. Below the Open button,in the white field,type in the word you look for and type Enter or click on Go ahead.
 3. The result will be displayed on the right window if the word is found inside the PDF files. If not, the right window will remain white.
 
-* The result shows you in which PDF file the word has been found and how many times it appears. 
+* The result will display in which PDF file the word has been found and how many times it appears. 
 
 ### USE REGULAR EXPRESSIONS TO FIND ANYTHING YOU WANT
 
