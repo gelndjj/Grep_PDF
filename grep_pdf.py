@@ -142,7 +142,7 @@ def show_ins():
     global switch_on
 
     if switch_on:
-        expression_ins.insert(END,'\d = A digit\n\w = Alphanumeric\n\s = White space\n\D = A non digit\n\W = Non-alphanumeric\n\S = Non-whitespace\n\n\'+\' = Occurs one or more times\n{3} = Occurs 3 times\n{2,5} = Occurs 2 to 5 times\n{2,} = Occurs 2 or more\n\'\*\' = Occurs zero or more times\n\'?\' = Once or more\n\nFor instance \'\d\d\d\d-\d\d-\d\d\' can find 1970-01-01\namong others.')
+        expression_ins.insert(END,'\d = A digit\n\w = Alphanumeric\n\s = White space\n\D = A non digit\n\W = Non-alphanumeric\n\S = Non-whitespace\n[a-zA-Z] = Alphabet characters\n\n\'+\' = Occurs one or more times\n{3} = Occurs 3 times\n{2,5} = Occurs 2 to 5 times\n{2,} = Occurs 2 or more\n\'\*\' = Occurs zero or more times\n\'?\' = Once or more\n\nFor instance \'\d\d\d\d-\d\d-\d\d\' can find 1970-01-01\namong others.')
         switch_on = False
 
     else:
