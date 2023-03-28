@@ -18,12 +18,14 @@ The soft allows you to use Regular Expressions in case you do not know what exac
 ### SCREENSHOTS
 
 ![Screenshot](https://github.com/gelndjj/Grep_PDF/blob/main/img/grep_pdf_main.png)
+ 
+### V2 
 
-![Screenshot](https://github.com/gelndjj/Grep_PDF/blob/main/img/grep_pdf_main_dark.png)
+![Screenshot](https://github.com/gelndjj/Grep_PDF/blob/main/img/main_v2.png)
 
 ### HOW IT WORKS 
 1. Open a folder containing PDF files by clicking on Open a folder.
-2. Below the Open button,in the white field,type in the word you look for and type Enter or click on Go ahead.
+2. Below the Open button,in the white field,type in the word you look for and click on Go ahead.
 3. The result will be displayed on the right window if the word is found. If not, the right window will remain blank.
 
 * The result will display in which PDF file the word has been found and how many times it appears. 
@@ -34,6 +36,10 @@ The soft contains instructions to get familiar with RE; toogle the button close 
 Then we can use them the same way we look for a word we already know.<br />
 
 ![Screenshot](https://github.com/gelndjj/Grep_PDF/blob/main/img/grep_pdf_ins.png)
+
+### V2
+
+![Screenshot](https://github.com/gelndjj/Grep_PDF/blob/main/img/working_v2.png)
 
 * Here is an example using RE to find any address with its postcode ; so we look for 5 digits in a row followed by the city's name (which will more than one character).<br /> 
 * A digit is represented by this expression \d , so for 5 digts in a row we will type \d\d\d\d\d or \d{5}.<br />
@@ -48,7 +54,7 @@ Then we can use them the same way we look for a word we already know.<br />
 
 Regular Expression is a powerful tool and can do much more.
 
-### FEATURES
+### FEATURES - ONLY ON V1
 
 The frame _Options_ allows you to look for any informations inside the white window above as well as get the size and the amount of PDF from the folder we just selected.<br /> 
 1. Typing a word in the Find field will look for it in the window above.
