@@ -39,7 +39,7 @@ Then we can use them the same way we look for a word we already know.<br />
 
 ### V2
 
-![Screenshot](https://github.com/gelndjj/Grep_PDF/blob/main/img/working_v2.png)
+![Screenshot](https://github.com/gelndjj/Grep_PDF/blob/main/img/searching_v2.png)
 
 * Here is an example using RE to find any address with its postcode ; so we look for 5 digits in a row followed by the city's name (which will more than one character).<br /> 
 * A digit is represented by this expression \d , so for 5 digts in a row we will type \d\d\d\d\d or \d{5}.<br />
