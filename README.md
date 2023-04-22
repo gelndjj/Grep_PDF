@@ -12,8 +12,7 @@ _Grep_PDF looks through all your PDF at once and find anything you want.Regular 
 ```
 
 ### SUMMARY
-Grep_PDF grabs PDF from a folder you choose and then look through all of them to find a word (string) you have defined.<br />
-The soft allows you to use Regular Expressions in case you do not know what exactly you are looking for.<br />
+Grep_PDF grabs PDF from a folder you choose and then look through all of them to find a word (string) you have defined.The soft allows you to use Regular Expressions in case you do not know what exactly you are looking for.<br />
 
 ### SCREENSHOTS
 
@@ -62,3 +61,12 @@ The frame _Options_ allows you to look for any informations inside the white win
 
 ![Screenshot](https://github.com/gelndjj/Grep_PDF/blob/main/img/grep_pdf_getsize.png)
 
+### REQUIREMENTS INSTALLATION
+```
+pip install -r requirements.txt
+```
+### CLONE REPO
+
+```
+git clone https://github.com/gelndjj/Grep_PDF.git
+```
